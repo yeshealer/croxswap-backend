@@ -6,7 +6,7 @@ const ObjectId = require("mongodb").ObjectId;
 recordRoutes.route("/record/add/bnb").post(function (req, response) {
     let db_connect = dbo.getDb();
     let myquery = {
-        _id: ObjectId('6220498948db83e57e23086d')
+        _id: ObjectId('6352a4b156ca3508cfc41d29')
     }
     let myobj = {
         $set: {
@@ -23,7 +23,7 @@ recordRoutes.route("/record/add/bnb").post(function (req, response) {
 recordRoutes.route("/record/add/heco").post(function (req, response) {
     let db_connect = dbo.getDb();
     let myquery = {
-        _id: ObjectId('6220498948db83e57e23086d')
+        _id: ObjectId('6352a4b156ca3508cfc41d29')
     }
     let myobj = {
         $set: {
